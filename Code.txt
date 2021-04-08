@@ -1,0 +1,49 @@
+using System;
+
+namespace Test_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            bool done;
+            string swish;
+            Console.WriteLine("Welcome to the basketball game!!");
+
+            System.Threading.Thread.Sleep(1000);
+
+            Console.WriteLine("Programmed by Henry Moss.");
+
+            System.Threading.Thread.Sleep(2000);
+
+            Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+            Console.WriteLine("Type e in the console to score.");
+            Console.WriteLine("Type l in the console to end the game");
+            for (int a = 0; a < 999; a++)
+                {
+                swish = Console.ReadLine();
+                    if (swish == "e")
+                    {
+                        i++;
+                        Console.WriteLine($"\nYour total score is {i}");
+                    }
+                    else if (swish == "l")
+                    {
+                    a = 999;
+                    }
+                }
+            }
+      
+            
+
+
+
+            
+
+
+        }
+
+        
+    }
+
